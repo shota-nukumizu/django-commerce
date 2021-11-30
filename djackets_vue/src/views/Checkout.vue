@@ -186,7 +186,7 @@ export default {
                     if (result.error) {
                         this.$store.commit('setIsLoading', false)
 
-                        this.$errors.push('Something went wrong with Stripe. Please try again')
+                        this.error.push('Something went wrong with Stripe. Please try again')
 
                         console.log(result.error.message)
                     } else {
