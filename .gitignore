@@ -1,0 +1,9 @@
+djackets_django/__pycache__/
+
+order/__pycache__/
+
+order/migrations/__pycache__/
+
+product/__pycache__/
+
+product/migrations/__pycache__/
